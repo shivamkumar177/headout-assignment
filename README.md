@@ -42,7 +42,7 @@ RUN
     python gen_file.py
 ```
 
-This command generates 30 files of size around 100MB
+This command generates 30 files of size around 100MB, Number of file can be changed inside the gen_file.py ('FILES_TO_GEN') 
 
 
 
