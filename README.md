@@ -21,9 +21,15 @@ RUN
     docker run -p 8080:8080 --memory=1500m --cpus=2 --name=file-server file-server
 ```
 
+
+
+https://github.com/shivamkumar177/headout-assignment/assets/48840719/d9e9f22c-80b1-43a6-ba31-75568b3265a2
+
+
+
 Here we are running with all the mentioned limitation (RAM, CPU). 
 
-If You want to generate files which are used as input then RUN
+## If You want to generate files which are used as input then RUN
 
 #### Make sure of Docker Container Name
 ``` bash
@@ -37,6 +43,13 @@ RUN
 ```
 
 This command generates 30 files of size around 100MB
+
+
+
+https://github.com/shivamkumar177/headout-assignment/assets/48840719/a0ede578-a295-4b65-83c8-82b599eb5d3f
+
+
+
 ## API Info
 
 #### Get all items
@@ -56,3 +69,5 @@ This command generates 30 files of size around 100MB
   GET /health
 ```
 returns 200 
+
+
